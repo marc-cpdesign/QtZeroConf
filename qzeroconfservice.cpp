@@ -1,5 +1,5 @@
 #include <QDebug>
-#include "qzeroconfservice.h"
+#include "QtZeroConf/qzeroconfservice.h"
 
 QDebug operator<<(QDebug debug, const QZeroConfService &service)
 {

@@ -31,7 +31,7 @@
 #include <avahi-core/lookup.h>
 #include <avahi-common/simple-watch.h>
 #include <QCoreApplication>
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 
 class QZeroConfPrivate
 {
