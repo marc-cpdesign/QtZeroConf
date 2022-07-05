@@ -29,7 +29,7 @@
 
 #include <QMainWindow>
 #include <QTableWidget>
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 
 class mainWindow : public QMainWindow
 {

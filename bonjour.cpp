@@ -24,7 +24,7 @@
    Wrapper for Apple's Bonjour library for use on Windows, MACs and iOS
 ---------------------------------------------------------------------------------------------------
 **************************************************************************************************/
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 #include "bonjour_p.h"
 
 

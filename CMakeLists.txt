@@ -8,9 +8,9 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(PUBLIC_HEADERS
-    qzeroconfservice.h
-    qzeroconfglobal.h
-    qzeroconf.h
+    QtZeroConf/qzeroconfservice.h
+    QtZeroConf/qzeroconfglobal.h
+    QtZeroConf/qzeroconf.h
 )
 add_library(QtZeroConf
     ${PUBLIC_HEADERS}

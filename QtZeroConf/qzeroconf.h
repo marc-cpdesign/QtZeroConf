@@ -30,8 +30,8 @@
 #include <QObject>
 #include <QHostAddress>
 #include <QMap>
-#include "qzeroconfglobal.h"
-#include "qzeroconfservice.h"
+#include "QtZeroConf/qzeroconfglobal.h"
+#include "QtZeroConf/qzeroconfservice.h"
 
 class QZeroConfPrivate;
 

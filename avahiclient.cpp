@@ -30,7 +30,7 @@
 #include <avahi-client/publish.h>
 #include <avahi-common/error.h>
 #include <avahi-client/lookup.h>
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 
 class QZeroConfPrivate
 {
