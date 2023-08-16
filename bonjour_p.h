@@ -31,7 +31,7 @@
 #include <QSocketNotifier>
 #include <QtEndian>
 #include <QHostAddress>
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 #include <QDebug>
 
 #ifndef kDNSServiceFlagsTimeout		// earlier versions of dns_sd.h don't define this constant
