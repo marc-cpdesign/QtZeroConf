@@ -87,7 +87,6 @@ if(ANDROID_AVAHI)
      set(ACM "${CMAKE_CURRENT_LIST_DIR}/avahi-common")
      set(ACR "${CMAKE_CURRENT_LIST_DIR}/avahi-core")
      target_sources(QtZeroConf PRIVATE
-        qzeroconf.h
         avahi-qt/qt-watch.h
         avahi-qt/qt-watch_p.h
         avahicore.cpp
@@ -144,7 +143,6 @@ if(ANDROID_AVAHI)
     target_compile_definitions(QtZeroConf PRIVATE HAVE_STRLCPY GETTEXT_PACKAGE HAVE_NETLINK)
 elseif(ANDROID)
     target_sources(QtZeroConf PRIVATE
-        qzeroconf.h
         androidnsd_p.h
         androidnsd.cpp
     )

@@ -24,7 +24,7 @@
    NsdManager wrapper for use on Android devices
 ---------------------------------------------------------------------------------------------------
 **************************************************************************************************/
-#include "qzeroconf.h"
+#include "QtZeroConf/qzeroconf.h"
 #include <QMap>
 
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
